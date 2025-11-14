@@ -16,5 +16,5 @@ for char in plain_text:
     # add encrypted character to encrypted text
     encrypted_text = encrypted_text + new_char
 
-print(f'Oryginalny tekst: {plain_text}')
-print(f'Zaszyfrowany teskt: {encrypted_text}')
+print(f'Plain text: {plain_text}')
+print(f'Encrypted text: {encrypted_text}')

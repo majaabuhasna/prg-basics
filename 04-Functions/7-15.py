@@ -4,12 +4,9 @@ def f(detector):
         if char == '+':
             i += 1
             if i >= 3:
-                return print(True)
+                return True
         elif char == '-':
             i -= 1
-    return print(False)
+    return False
 
-f("+-+++-+---")
-f("+-+-+-+-")
-f("+-++-+--")
-f("+-++-++-+---")
+print(f("+-+++-+---"), f("+-+-+-+-"), f("+-++-+--"), f("+-++-++-+---"), sep="\n")

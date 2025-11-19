@@ -6,7 +6,7 @@ def f(n):
         is_prime = True
         sqrt = candidate ** 0.5
 
-        for i in range(2, sqrt+1):
+        for i in range(2, int(sqrt)+1):
             if candidate % i == 0:
                 is_prime = False
                 break
@@ -18,6 +18,6 @@ def f(n):
             
         candidate += 1
 
-print(1)
-print(5)
+print(f(1))
+print(f(5))
         

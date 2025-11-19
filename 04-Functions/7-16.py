@@ -4,19 +4,18 @@ def f(n):
     j = 1
 
     if n == 1:
-        return print(0)
+        return 0
     
     if n == 2:
-        return print(1)
+        return 1
 
     for n in range(n-2):
         k = i + j
         i = j
         j = k
     
-    return print(k)
+    return k
 
-f(5)
-f(9)
+print(f(5), f(9), sep="\n")
 
         

@@ -4,8 +4,6 @@ def f(number):
     for digit in number:
         if number.count(digit) > 1:
             sum += int(digit)
-    return print(sum)
+    return sum
 
-f(1027)
-f(230335)
-f(513553007)
+print(f(1027), f(230335), f(513553007), sep="\n")

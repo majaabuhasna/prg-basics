@@ -1,25 +1,21 @@
 def f(number1,number2,operator):
     if operator == '+':
         result = number1 + number2
-        return print(result)
+        return result
     elif operator == '-':
         result = number1 - number2
-        return print(result)
+        return result
     elif operator == '*':
         result = number1 * number2
-        return print(result)
+        return result
     elif operator == '%':
         result = number1 % number2
-        return print(result)
+        return result
     elif operator == "**":
         result = number1 ** number2
-        return print(result)
+        return result
     else:
-        return print('Incorrect sign')
+        return 'Incorrect sign'
 
 
-f(2,3, "+")
-f(2,3, "%")
-f(2,3, "**")
-f(2,3, "*")
-f(2,3, "-")
+print(f(2,3, "+"), f(2,3, "%"), f(2,3, "**"), f(2,3, "*"), f(2,3, "-"), sep="\n")

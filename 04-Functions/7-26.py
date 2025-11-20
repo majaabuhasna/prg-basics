@@ -1,8 +1,8 @@
 def f(text):
     separated_text = ''
 
-    if text == "":
-        return '""'
+    if text == '':
+        return text
 
     for char in text[:-1:]:
         separated_text += char + '-'

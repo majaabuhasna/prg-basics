@@ -3,6 +3,10 @@ with open('pets.txt', 'r') as file:
 
 text_split = content.splitlines()
 
+total_words = 0
+
 for line in text_split:
-    length = len(line)
-    print(length)
+    words_in_line = line.split()
+    total_words += len(words_in_line)
+
+print(total_words)

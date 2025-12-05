@@ -25,4 +25,4 @@ for amount in amounts:
     total += amount
     
 # print result
-print(total)
+print(f'Total: €{total}')

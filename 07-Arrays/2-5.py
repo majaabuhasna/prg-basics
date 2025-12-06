@@ -10,13 +10,13 @@ cinema_seats = [
 
 def seats_total(seats):
     total = 0
-    for rows in cinema_seats:
+    for rows in seats:
         total += len(rows)
     return total
 
 def seats_available(seats):
     available = 0
-    for rows in cinema_seats:
+    for rows in seats:
         for seat in rows:
             if seat == 'A':
                 available += 1
@@ -24,14 +24,14 @@ def seats_available(seats):
 
 def seats_booked(seats):
     booked = 0
-    for rows in cinema_seats:
+    for rows in seats:
         for seat in rows:
             if seat == 'B':
                 booked += 1
     return booked
 
 def seat_status(seats, row, place):
-    if cinema_seats[row-1][place-1] == 'A':
+    if seats[row-1][place-1] == 'A':
         return 'Available'
     else:
         return 'Booked'

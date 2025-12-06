@@ -1,2 +1,2 @@
-tuple = ('computation')
-print(tuple)         
+my_tuple = ('computation')
+print(my_tuple)         

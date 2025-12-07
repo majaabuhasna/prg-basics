@@ -46,8 +46,8 @@ def median_of_numbers(array):
 def two_element_array(array):
     new_array = []
 
-    new_array.append(max(array))
     new_array.append(min(array))
+    new_array.append(max(array))
 
     return new_array
 

@@ -21,7 +21,7 @@ def difference_smallest_largest(array):
         if digit > largest:
             largest = digit
 
-        elif digit < smallest:
+        if digit < smallest:
             smallest = digit
 
     difference = largest - smallest

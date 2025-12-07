@@ -9,6 +9,7 @@ print('Second largest number:',MyArrays.second_largest_number(arr))
 
 print('Median:',MyArrays.median_of_numbers(arr))
 
-print('Smallest and largest number:',MyArrays.two_element_array(arr))
+print('Smallest and largest number: ',end='')
+print(*MyArrays.two_element_array(arr),sep=',')
 
 print('Numbers as a string:',MyArrays.array_string(arr))

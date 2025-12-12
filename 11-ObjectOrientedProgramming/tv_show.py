@@ -12,6 +12,9 @@ def main():
     my_tv.turn_on()
     my_tv.show_status()
 
+    my_tv.set_channel(5)
+    my_tv.show_status()
+
     my_tv.turn_off()
     my_tv.show_status()
 

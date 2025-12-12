@@ -10,5 +10,5 @@ class TV:
    def show_status(self):
       if self.is_on == True:
          return 'TV is on'
-      if self.is_on == False:
+      else:
          return 'TV is off'

@@ -9,6 +9,6 @@ class TV:
       self.is_on = True
    def show_status(self):
       if self.is_on == True:
-         return 'TV is on'
+         print('TV is on')
       else:
-         return 'TV is off'
+         print('TV is off')

@@ -1,4 +1,4 @@
-file_name = input('Enter file name: ')
+file_name = input('File name: ')
 
 try:
     with open(file_name, 'r', encoding='utf-8') as file:

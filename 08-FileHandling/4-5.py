@@ -13,7 +13,7 @@ try:
     print(f'Sender: {sender}')
     print(f'Recipient: {recipient}')
     print(f'Subject: {subject}')
-    print(f'Body: \n\n{body}')
+    print(f'Body:\n{body}')
 
 except FileNotFoundError:
     print('File not found')

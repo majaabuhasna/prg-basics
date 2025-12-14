@@ -9,10 +9,10 @@ try:
     subject = emails.email_subject(content)
     body = emails.email_body(content)
 
-    print('=== EMAIL DATA ===')
-    print(f'Sender: {sender}')
-    print(f'Recipient: {recipient}')
-    print(f'Subject: {subject}')
+    print(f'=== EMAIL DATA ===\n')
+    print(f'Sender: {sender}\n')
+    print(f'Recipient: {recipient}\n')
+    print(f'Subject: {subject}\n')
     print(f'Body:\n{body}')
 
 except FileNotFoundError:

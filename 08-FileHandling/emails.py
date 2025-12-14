@@ -27,7 +27,7 @@ def email_subject(text):
 def email_body(text):
     pattern = '\n\n(.*)'
 
-    match = re.search(pattern,text)
+    match = re.search(pattern,text,re.DOTALL)
 
     if match:
         return match.group(1).strip()

@@ -12,7 +12,7 @@ with open(email_file, 'r', encoding='utf-8') as email_content:
 
 # regular expression pattern
 # for amounts
-pattern = r'€\d+'
+pattern = '€\d+'
 
 # extract numbers from email
 # tip: findall() method returns an array

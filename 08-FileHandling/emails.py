@@ -30,5 +30,5 @@ def email_body(text):
     match = re.search(pattern,text,re.DOTALL)
 
     if match:
-        return match.group(1).strip()
+        return match.group(1)
     return None

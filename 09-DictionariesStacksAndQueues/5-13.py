@@ -7,7 +7,7 @@ while True:
 
     if value == '=':
         if len(stack)>0:
-            print(stack.pop())
+            print(f'Result: {int(stack.pop())}')
         else:
             print('No result')
         break

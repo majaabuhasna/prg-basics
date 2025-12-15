@@ -8,8 +8,7 @@ while True:
    print('2. Print file')
    print('0. Quit')
    menu = input('Select an option: ')
-   ...
-   ...
+
    
    if menu == '1':
       file_name = input('Enter file name to print: ')

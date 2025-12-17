@@ -4,8 +4,6 @@ winter_semester = {
    "history":15
 }
 
-total = 0
-for values in winter_semester.values():
-    total += values
+total = sum(winter_semester.values())
 
 print(f'The total number of hours in the winter semester is {total}')

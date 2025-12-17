@@ -19,10 +19,11 @@ while True:
     elif menu == '2':
         if tickets.empty():
             print('No customers are being served right now')
-            break
+            print()
 
         else:
             ticket_number_right_now = tickets.get()
             print(f'Number {ticket_number_right_now} is being served right now')
             print()
+
         

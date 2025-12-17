@@ -39,7 +39,7 @@ def median_of_numbers(array):
     else:
         first = array[n//2 - 1]
         second = array[n//2]
-        median = ( first + second) / 2
+        median = (first + second) / 2
 
     return median
 

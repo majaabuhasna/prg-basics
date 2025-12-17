@@ -6,7 +6,7 @@ j = -1
 while i < len(arr):
     x = arr[j]
     i += 1
-    j += -1
+    j -= 1
 
     arr_reversed.append(x)
 

@@ -1,0 +1,17 @@
+{
+    "name": "Milk",
+    "price": 2.99,
+    "paid": true
+}{
+    "name": "Oats",
+    "price": 1.5,
+    "paid": true
+}{
+    "name": "Carrot",
+    "price": 0.49,
+    "paid": true
+}{
+    "name": "Toy",
+    "price": 11.0,
+    "paid": true
+}

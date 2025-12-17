@@ -6,10 +6,10 @@ computer_games = [
 
 computer_games = sorted(computer_games)
 
-i = 0
+i = 1
 
 while i < 10:
-    print(str(i+1), end =' ')
+    print(str(i), end =' ')
     print(computer_games[i])
     i += 1
 

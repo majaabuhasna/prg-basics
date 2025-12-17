@@ -2,12 +2,13 @@ import csv
 
 file_name = 'it_company.csv'
 
-print('GRAPHIC DESIGNERS')
-print('=================')
-
 try:
     with open(file_name, 'r', encoding='utf-8') as file:
         reader = csv.DictReader(file)
+
+        print('GRAPHIC DESIGNERS')
+        print('=================')
+
 
         for row in reader:
             if row['Job Title'] == 'Graphic Designer':

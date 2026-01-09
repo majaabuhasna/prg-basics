@@ -2,7 +2,7 @@ class C:
     def __init__(self,value):
         self.value = value
 
-    def  m1(self):
+    def m1(self):
         return self.value
     
     def m2(self):

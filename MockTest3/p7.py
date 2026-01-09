@@ -28,8 +28,8 @@ def main():
     r4 = c.m1()
     c.m4(10)
     r5 = c.m1()
-    c.__str__()
+    r6 = c.__str__()
 
-    return r1,r2,r3,r4,r5
+    return r1,r2,r3,r4,r5,r6
 
 print(main())

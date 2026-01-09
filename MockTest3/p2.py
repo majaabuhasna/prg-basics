@@ -46,7 +46,7 @@ class C:
         self.a = a
         self.b = b
 
-        distance = (((self.y - self.x)**2 + (self.b - self.a)**2)**0.5)
+        distance = (((self.y - self.b)**2 + (self.x - self.a)**2)**0.5)
 
         if distance > 5:
             return True

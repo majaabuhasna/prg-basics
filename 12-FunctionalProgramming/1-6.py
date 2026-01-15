@@ -1,5 +1,4 @@
-def avg_speed(distance,hours,minutes):
-    return distance/((minutes/60)+hours)
+avg_speed = lambda distance,hours,minutes: distance/((minutes/60)+hours)
 
 d1 = int(input('Enter distance: '))
 h1 = int(input('Enter number of travel hours: '))

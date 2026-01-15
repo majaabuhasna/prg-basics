@@ -1,6 +1,5 @@
-arr = [("Smith","Lucy"),("Jones","Janet"),("Lee","Jerry"),("Jackson","Peter"),("Johnson","Rick"),("Lewis","Terry"),("Clarke","Robin")]
+arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 
-result = list(map(lambda data: f'{data[0].upper()}, {data[1]}',arr))
+result = list(filter(lambda x: x%2==0 or x%3==0,arr))
 
-for item in result:
-    print(item)
+print(result)
